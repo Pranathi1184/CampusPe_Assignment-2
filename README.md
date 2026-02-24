@@ -35,10 +35,13 @@ All programs were tested with different inputs and small corrections were made w
 
 ### Bonus Features Implemented
 
+* **Q4 (Age Calculator):** Calculated using precise date of birth
 * **Q10 (ATM):** Transaction history option added
+* **Q12 (Multiplication):** Created full multiplication table (1-10)
+* **Q13 (Statistics):** Median and mode calculations added
 * **Q16 (Guessing Game):** Difficulty levels, best score tracking, and hint when the guess is close
 * **Q18 (Calculator):** Square root and percentage options added
-* **Q13 (Statistics):** Median and mode calculations added
+
 
 ---
 

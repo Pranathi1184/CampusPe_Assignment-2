@@ -27,8 +27,6 @@ def modulus(a, b):
     return a % b
 
 
-# power using loop instead of **
-# works for positive integer powers
 def power(a, b):
     return a**b
 
@@ -74,13 +72,14 @@ def calculator():
         print("4. Divide")
         print("5. Modulus")
         print("6. Power")
-        print("7. Square Root (Bonus)")
-        print("8. Percentage (Bonus)")
+        print("7. Square Root")
+        print("8. Percentage")
         print("9. Exit")
 
         choice = input("Enter choice: ")
 
         if choice == "9":
+            print("Exiting Calculator.")
             running = False
 
         elif choice == "7":

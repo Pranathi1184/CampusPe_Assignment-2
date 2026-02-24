@@ -7,7 +7,9 @@ print("3. Pattern 3")
 print("4. Pattern 4")
 
 choice = input("Enter pattern number: ")
-height = int(input("Enter height: "))
+
+if choice <= "4" and choice >= "1":
+    height = int(input("Enter height: "))
 
 print()
 

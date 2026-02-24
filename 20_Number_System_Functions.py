@@ -40,21 +40,24 @@ def is_prime(n):
 
 # 3. fibonacci
 def fibonacci(n):
+
     if n <= 0:
         print("Invalid position")
         return
 
     a = 0
     b = 1
+
+    print("Fibonacci series:")
+
     count = 1
 
-    while count < n:
+    while count <= n:
+        print(a)
         temp = a + b
         a = b
         b = temp
         count = count + 1
-
-    print("Fibonacci number:", b)
 
 
 # 4. sum of digits
