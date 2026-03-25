@@ -79,12 +79,6 @@ HUGGINGFACE_API_KEY=your_key
 GOOGLE_API_KEY=your_key
 COHERE_API_KEY=your_key
 EDYX_API_KEY=your_key
-```
-
-**Important:**
-
-* Do NOT share your API keys
-* `.env` file is ignored using `.gitignore`
 
 ---
 
